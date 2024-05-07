@@ -1,0 +1,102 @@
+package ncs.test15;
+
+import java.util.Date;
+
+public class Inventory {
+ private String ProductName; // 제품명
+ private Date putDate; // 입고
+ private Date getDate; // 출고
+ private int putAmonut; // 입고량
+ private int getAmonut; // 출고량
+ private int inventoryAmount; // 남은 갯수
+//getter setter
+ 
+ public void setProductName(String productName) {
+	ProductName = productName;
+}
+
+public void setPutDate(Date putDate) {
+	this.putDate = putDate;
+}
+
+public void setGetDate(Date getDate) {
+	this.getDate = getDate;
+}
+
+public void setPutAmonut(int putAmonut) {
+	this.putAmonut = putAmonut;
+}
+
+public void setGetAmonut(int getAmonut) {
+	this.getAmonut = getAmonut;
+}
+
+public void setInventoryAmount(int inventoryAmount) {
+	this.inventoryAmount = inventoryAmount;
+}
+
+public String getProductName() {
+	return ProductName;
+}
+
+public Date getPutDate() {
+	return putDate;
+}
+
+public Date getGetDate() {
+	return getDate;
+}
+
+public int getPutAmonut() {
+	return putAmonut;
+}
+
+public int getGetAmonut() {
+	return getAmonut;
+}
+
+public int getInventoryAmount() {
+	return inventoryAmount;
+}
+
+//메서드
+ 	//기본 생성자
+ public Inventory() {
+	// TODO Auto-generated constructor stub
+}
+ 	//필수 생성자
+ 	//핸드폰 이름 출시일 재고량 판매와 판매후 남은 재고는 알 수 없기 때문에 지워줘야함
+public Inventory(String productName, Date putDate,  int putAmonut) {
+	super();
+	ProductName = productName;
+	this.putDate = putDate;
+	//this.getDate = getDate;
+	this.putAmonut = putAmonut;
+	//this.getAmonut = getAmonut;
+	//this.inventoryAmount = inventoryAmount;
+}
+//toString
+@Override
+public String toString() {
+	return "Inventory [ProductName=" + ProductName + ", putDate=" + putDate + ", getDate=" + getDate + ", putAmonut="
+			+ putAmonut + ", getAmonut=" + getAmonut + ", inventoryAmount=" + inventoryAmount + "]";
+}
+ 
+ 	
+
+ 	
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+}

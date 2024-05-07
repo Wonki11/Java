@@ -1,0 +1,8 @@
+package com.kh.FileEx;
+
+public class FileEx {
+	//컨트롤 쉬프트 f 줄정렬
+	public static void main(String[] args) {
+		
+	}
+}

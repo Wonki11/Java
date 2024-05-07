@@ -1,0 +1,16 @@
+package com.kh.Hamberger;
+
+import java.util.*;
+
+public class BurgerShop {
+	//ArrayList 사용 주문리스트
+	ArrayList<String> 주문 = new ArrayList<>();
+	
+	//new BugerOrder("동그라미","치즈버거")
+	//new BugerOrder("안세모","베이컨버거")
+	//new BugerOrder("박네모","상하기버거")
+	//new BugerOrder("금각진","치킨버거")
+	//new BugerOrder("동그라미","빅맥")
+	
+	//toString 출력 sysout 주문리스트
+}

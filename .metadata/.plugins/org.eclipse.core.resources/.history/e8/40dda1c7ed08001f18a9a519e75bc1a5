@@ -1,0 +1,19 @@
+package com.kr.datePre;
+
+import java.util.Date;
+
+public class DateEx {
+	public static void main(String[] args) {
+		//Date는 최초1회만 호출 Date new = new Date();
+		Date dd = new Date();
+		//Date로 날짜를 받아서 년-월-일 출력하기
+		System.out.println(dd);
+		//SimpleDateFormat sdf1 = new SimpleDateFormat();
+		
+		// 시:분:초
+		//SimpleDateFormat sdf2 = new SimpleDateFormat();
+		
+		// 년-월-일 시:분:초 출력하기
+		//SimpleDateFormat sdf3 = new SimpleDateFormat();
+	}
+}

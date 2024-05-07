@@ -1,0 +1,14 @@
+package com.kh.pizzaOrder;
+
+public class pizzaOrder {
+//필드 = 전역변수
+	//각각의 멤버변수
+	private String 고객명;
+	private String 피자타입;
+	
+	
+//메서드
+	//생성자 필수
+	
+	//@Override toString return 고객이름 피자타입
+}

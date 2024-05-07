@@ -1,0 +1,7 @@
+package com.kh.Hamberger;
+
+public class HambergerOrder {
+	//필드
+		private String 고객명;
+		private String 버거타입;
+}

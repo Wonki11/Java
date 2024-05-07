@@ -1,0 +1,20 @@
+package com.kh.Sandwich;
+
+import java.util.*;
+
+
+public class 샌드위치가게 {
+	public static void main(String[] args) {
+		ArrayList<String> 주문 = new ArrayList<>();
+		
+		//샌드위치 주문1 = new 샌드위치("김하나","BLT");
+		//샌드위치 주문2 = new 샌드위치("이둘","터키");
+		//샌드위치 주문3 = new 샌드위치("김하나","치킨");
+		//샌드위치 주문4 = new 샌드위치("이셋","에그마요");
+		//샌드위치 주문5 = new 샌드위치("김하나","베지터블");
+		
+		주문.add(new 샌드위치("김하나","BLT"));
+		
+	
+}
+}
